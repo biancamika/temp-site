@@ -102,7 +102,11 @@ body {
     font-family:'Merriweather',serif;
     background: url("../img/background.gif");
     background-position:center;
+    background-attachment:fixed;
     background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
     background-size:cover;
 }
 
@@ -113,7 +117,7 @@ h1 {
     padding: 0px 0px 0px 0px;
 }
 
-#window {
+.window {
     background-color:#fff8ef;
     color: #614a3b;
     margin: 0 auto;
@@ -202,6 +206,40 @@ a:hover {
     padding-right:15px;
 }
 
+@media only screen and (max-width:768px) {
+    /*mobile*/
+    .window {
+        height:100%;
+        width:60%;
+        position:relative;
+        top: 20px;
+        margin-bottom:20px;
+        vertical-align:center;
+        margin:0 auto;
+    }
+    #info {
+        margin: 0 auto;
+        overflow:auto;
+        background-color:#fff8ef;
+    }
+    #me {
+        display:block;
+        margin: 0 auto;
+        height:72%;
+        float:none;
+        padding: 0px 0px 10px 0px;
+    }
+    h1 {
+        font-size: 290%;
+        text-align:center;
+        padding-bottom:15px;
+    }
+    #info p {
+        position:relative;
+        padding: 0px 15px 15px 15px;
+        margin: 0px 0px 0px 0px;
+    }
+}
 
 
 
