@@ -213,17 +213,76 @@ a:hover {
 }
 
 @media only screen and (max-width:1480px) {
+    .window {
+        width:65%;
+        overflow:hidden;
+    }
+
+    #info {
+        margin: 10px 10px 20px 10px;
+    }
+
+    #me {
+        width:46.5%;
+    }
+
     h1 {
-        font-size:330%;
+        font-size:360%;
     }
 
     p {
-        font-size: 118%;
-        margin: 5px 0px 25px 0px;
+        font-size: 117%;
+        margin: 5px 0px 30px 0px;
     }
 
     .boxlink {
         font-size:138%;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    h1 {
+        font-size: 320%;
+    }
+
+    p {
+        font-size: 114%;
+    }
+
+    #me {
+        width: 49.5%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    h1 {
+        font-size:300%;
+    }
+
+    p {
+        font-size:110%;
+    }
+
+    #me {
+        width:52%;
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    h1 {
+        font-size:290%;
+    }
+
+    p {
+        font-size:110%;
+    }
+
+    #me {
+        width:53%;
+    }
+
+    a, .boxlink i {
+        font-size:95%;
     }
 }
 
