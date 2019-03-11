@@ -176,6 +176,7 @@ left: 5px;
 p {
 font-family: 'Montserrat', sans-serif;
 font-size:121%;
+margin: 10px 0px 40px 0px;
 padding-right:10px;
 text-align:justify;
 }
@@ -187,6 +188,8 @@ text-align:justify;
 
 a {
     color: #614a3b;
+    -webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.5s; /* For modern browsers */
 }
 
 a:hover {
@@ -198,7 +201,7 @@ a:hover {
     color:#fff8ef;
     text-decoration:none;
     padding: 10px 10px 10px 10px;
-    font-size: 140%;
+    font-size: 150%;
     display:inline-block;
     width:220px;
     position:relative;
@@ -214,15 +217,30 @@ a:hover {
     .window {
         width:70%;
         height:auto;
+        margin-bottom: 3%;
+    }
+
+    #info {
+        padding: 20px 30px 30px 30px;
+        overflow: hidden;
     }
 
     #me {
+        float:none;
+        margin: 0 auto;
         width:100%;
+        padding-right:0px;
+        margin-bottom: 10px;
     }
 
     h1 {
         width:100%;
         text-align:center;
+    }
+
+    p {
+        margin: 5px 0px 20px 0px;
+        font-size: 120%;
     }
 }
 
