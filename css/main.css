@@ -94,6 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ 
 body, html {
     height:100%;
 }
@@ -121,9 +122,10 @@ h1 {
     background-color:#fff8ef;
     color: #614a3b;
     margin: 0 auto;
-    width: 55%;
-    height: 85%;
+    width: 70%;
+    height: 100%;
     margin-top: 3%;
+    overflow: auto;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -206,8 +208,9 @@ a:hover {
     padding-right:15px;
 }
 
+/* OLD MOBILE
 @media only screen and (max-width:768px) {
-    /*mobile*/
+    
     .window {
         height:100%;
         width:60%;
@@ -240,6 +243,7 @@ a:hover {
         margin: 0px 0px 0px 0px;
     }
 }
+*/
 
 
 
