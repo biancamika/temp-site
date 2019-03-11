@@ -167,7 +167,7 @@ left: 5px;
 }
 
 #me {
-    width: 50%;
+    width: 47%;
     overflow:auto;
     float:left;
     padding-right:20px;
@@ -175,8 +175,8 @@ left: 5px;
 
 p {
 font-family: 'Montserrat', sans-serif;
-font-size:121%;
-margin: 10px 0px 40px 0px;
+font-size:117%;
+margin: 10px 0px 35px 0px;
 padding-right:10px;
 text-align:justify;
 }
