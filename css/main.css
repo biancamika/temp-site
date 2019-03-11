@@ -268,7 +268,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width:1260px) {
+@media only screen and (max-width:1270px) {
     h1 {
         font-size:290%;
     }
@@ -283,6 +283,84 @@ a:hover {
 
     a, .boxlink i {
         font-size:95%;
+    }
+}
+
+@media only screen and (max-width:1260px) {
+
+    h1 {
+        font-size:290%;
+    }
+
+    p {
+        font-size:110%;
+    }
+
+    #me {
+        width:52%;
+    }
+}
+
+@media only screen and (max-width:1230px) {
+
+    h1 {
+        font-size:270%;
+    }
+
+    p {
+        font-size:110%;
+    }
+
+    #me {
+        width:54%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .window {
+        width: 71%;
+    }
+
+    h1 {
+        font-size:290%;
+    }
+
+    p {
+        font-size:110%;
+    }
+
+    #me {
+        width:52%;
+    }
+}
+
+@media only screen and (max-width:1130px) {
+
+    h1 {
+        font-size:270%;
+    }
+
+    p {
+        font-size:105%;
+    }
+
+    #me {
+        width:54%;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+
+    h1 {
+        font-size:265%;
+    }
+
+    p {
+        font-size:105%;
+    }
+
+    #me {
+        width:54%;
     }
 }
 
