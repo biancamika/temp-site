@@ -364,6 +364,25 @@ a:hover {
     }
 }
 
+@media only screen and (max-width:1080px) {
+
+    .window {
+        width: 80%;
+    }
+
+    h1 {
+        font-size:260%;
+    }
+
+    p {
+        font-size:105%;
+    }
+
+    #me {
+        width:55%;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .window {
         width:70%;
